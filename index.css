@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    cursor: url(cursor.png),auto;
+}
+body{
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+  
+}
+@font-face {
+    font-family: Cyberpunk-Regular;
+    src: url("Cyberpunk-Regular.ttf");
+  
+}
+@font-face {
+    
+    font-family: guildof;
+    src: url("guildof.ttf");
+}
+
+@font-face {
+    
+    font-family: "Android Insomnia Regular";
+    src: url("Android\ Insomnia\ Regular.ttf");
+}
+
+
+.title{
+    font-family: Cyberpunk-Regular;
+    font-size: 125px;
+    margin-top: 200px;
+    color: #FEF303;
+    text-shadow: 4px 4px 10px #00F0FF;
+    margin-bottom: 0;
+    display: inline-block;
+   
+    }
+.google:hover{
+    color: rgb(255, 0,60);
+    text-shadow: 4px 4px 10px #FEF303;
+
+}
+.google{
+        margin: 0;
+        padding: 0;
+        transition: color 1s, text-shadow 1s;
+    }
+.search{
+    width: 600px;
+    line-height: 30px;
+    font-size: 25px;
+    font-family: guildof;
+    border-radius: 35px;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    padding: 20px 20px;
+    border-style: none;
+    font-weight: bold;
+    background-color: black;
+    box-shadow: inset 0px 0px 15px #00F0FF;
+    cursor: text;
+    transition: box-shadow 1s;
+    color: #00F0FF;
+}
+.search::placeholder {
+    color: #00F0FF;
+}
+.search:hover{
+    box-shadow: inset 0px 0px 15px #03fe39}
+
+.button1, .button2{
+    font-size: 20px;
+    font-family: "Android Insomnia Regular";
+    margin: 0 10px;
+    background-color: rgba(255, 0,60,0.5);
+    color: white;
+    padding: 10px 20px;
+    text-shadow: 2px 2px 3px black;
+    box-shadow: 0px 0px 10px white;
+    border-style: none;
+    cursor: url(pointer.png),auto;
+    transition: background-color .5s,color 1s,box-shadow s;
+    
+}
+
+.button1:hover, .button2:hover{
+    background-color: rgba(1, 1, 1, 0.866);
+    color:  rgb(255, 0,60);
+    box-shadow: 0px 0px 10px  rgb(255, 0,60);
+}
