@@ -1,2 +1,5 @@
 # Cyber-Google
-A futuristic cyber makeover for Google homepage.
+
+A FuTuristic Cyber makeover for google homepage
+
+Done with HTML/CSS
